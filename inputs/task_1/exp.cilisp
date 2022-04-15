@@ -1,0 +1,7 @@
+(exp)
+(exp 1)
+(exp -1)
+(exp 5.0)
+(exp -2.0)
+(exp 1 2)
+quit

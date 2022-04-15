@@ -1,0 +1,13 @@
+(hypot)
+(hypot 1)
+(hypot 1.0)
+(hypot 3 4)
+(hypot -3 4)
+(hypot -30 -40.0)
+(hypot 4 4 7)
+(hypot 7.0 4 4.0)
+(hypot 12 13 14)
+(hypot 5 5 5)
+(hypot -5 -5.0 (sqrt 25))
+(hypot 0 0 0.0 -3 0 0 0 0 4 0.0 -0.0 12)
+quit

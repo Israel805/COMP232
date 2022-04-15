@@ -1,0 +1,12 @@
+(exp (log 1))
+(exp2 (div 1 2.0))
+(cbrt (pow 3 3))
+(cbrt (pow 3 6))
+(log (exp (log (exp 1))))
+(sub (mult 1 2 3 4) (add 1 2 3 4))
+(sub (mult 1 2 3 -4.0) (add -1 -2 -3 -4))
+(hypot (sqrt (div 100 7.0)) (mult 6 (sqrt (div 100.0 7))))
+(hypot (sqrt (div 100 7.0)) (sqrt (mult 6 (div 100.0 7))))
+(add 1 (add 2 (add 3 (add 4 (add 5 (add 6 (add 7)))))))
+(add 1 (add 2 (add 3 (add 4 (add 5 (add 6 (sub 0 -7.0)))))))
+quit

@@ -1,0 +1,17 @@
+x
+( (let (x 1) ) x )
+( (let (x 1) (x 2)) x )
+( (let (x 1)) ( (let (x 2)) x ) )
+( (let (x 1)) ( (let (y 2)) (add x y) ) )
+( (let (a ( (let (b 2)) (add b 3) ))) a )
+( (let (a ( (let (b 2)) (add b 3) ))) (add a b) )
+( (let (a 1) (b a)) ((let (a 2)) b ) )
+( (let (b a)) ((let (a 2)) b ) )
+( (let (a 1) (b a)) ((let (c ( (let (a 2)) a ))) b ) )
+( (let (y 1) (x y)) ( (let (y 2) (c x)) x ) )
+(add ((let (abc 1)) (sub 3 abc)) 4)
+(mult ((let (a 1) (b 2)) (add a b)) (sqrt 2))
+(add ((let (a ((let (b 2)) (mult b (sqrt 10))))) (div a 2)) ((let (c 5)) (sqrt c)))
+((let (first (sub 5 1)) (second 2)) (add (pow 2 first) (sqrt second)))
+((let (abc 1)) (sub ((let (abc 2) (de 3)) (add abc de)) abc))
+quit

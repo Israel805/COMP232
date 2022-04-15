@@ -1,0 +1,10 @@
+(exp2)
+(exp2 1)
+(exp2 1.0)
+(exp2 0)
+(exp2 0.0)
+(exp2 0.5)
+(exp2 -2)
+(exp2 20.0)
+(exp2 1 2)
+quit

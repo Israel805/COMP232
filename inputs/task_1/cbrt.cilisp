@@ -1,0 +1,12 @@
+(cbrt)
+(cbrt 0)
+(cbrt 0.0)
+(cbrt -1)
+(cbrt -1.0)
+(cbrt 1)
+(cbrt 1.0)
+(cbrt 27)
+(cbrt 27.0)
+(cbrt 4)
+(cbrt 1 2)
+quit

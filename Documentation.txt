@@ -1,0 +1,79 @@
+11/4 Progress:
+- So far I have added the many function types written from the grammar.
+- Added most of the lex and bison...
+- Also touched a bit on the functions in the C file
+?: How to tokenize "empty"
+- Have finished the lex and bison (Could be errors)
+- Looking over the functions in the C file
+- Made all the "helper functions" for all the operations needed
+- Have an error on addExpressionToList
+- Added all the helper functions to make the calculations
+- Start to work on the "Clean Up"
+
+11/5 Progress:
+- Went to office hours and got help on running it.
+- Making adjustments on the helper functions
+- Fixed all the helper functions and made the modifications
+- Also made 3 functions for the event that there is no operand,
+    too many operands and only one operand
+
+11/6 Progress:
+- Completed and compared all the function runs from the sampe output
+- Working on the free Node portion.
+- Noticed that there were memory leakage from lexer.c
+- Start task 2...
+- Fixed all the recommendations from the Progress check
+
+11/10 Progress:
+- Worked on most on Task 2, still needs work
+- The resolve functions need work
+
+11/12 Progress:
+- Finished Task 2
+- Starting Task 3...
+- Finished most of task 3
+
+11/13 Progress:
+- Finshed task 3
+- Started task 4...
+- Needs to look back at readFunc
+- Started task 5...
+
+11/17 Progress:
+- So far have done little of task 5
+- Went back to correct task 4
+- All good for task 4
+- Continuing task 5
+- Mostly all done with task 5
+
+11/25 Progress:
+- So far looks like it is working correctly
+- So I am "done"
+
+12/02 Progress: Epilogue
+- Noticed that some of the code is not highlighting, so it looks like it's not correct?
+- little bug when opening
+- Fixed the majority of the memory leaks, working on debugging recursive calls
+- Fixed the recursive calls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

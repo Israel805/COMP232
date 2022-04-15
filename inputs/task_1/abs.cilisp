@@ -1,0 +1,9 @@
+(abs 1)
+(abs 1.2)
+(abs -3)
+(abs 0)
+(abs 0.0)
+(abs -1.4)
+(abs)
+(abs -1 2)
+quit

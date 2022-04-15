@@ -1,0 +1,8 @@
+(mult)
+(mult 1)
+(mult 1.0)
+(mult -1)
+(mult -1 -1.0)
+(mult 1 -2 3 -4 5)
+(mult -1.0 2 -3.0 4 -5)
+quit

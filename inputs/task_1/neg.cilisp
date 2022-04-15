@@ -1,0 +1,7 @@
+(neg 5)
+(neg 5.5)
+(neg -5.0)
+(neg -5)
+(neg)
+(neg 1 2)
+quit

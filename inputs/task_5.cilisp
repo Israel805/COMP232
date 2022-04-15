@@ -1,0 +1,8 @@
+( (let (int integerAdd lambda (x y) (add x y))) (integerAdd 1.495 1.495) )
+( (let (x 1.495) (int x lambda (a b) (add a b))) (x x x) )
+( (let (double myFunc lambda (x y) (mult (add x 5) (sub y 2)))) (sub (myFunc 3 5) 2) )
+( (let (f lambda (x y) (add x y))) (f (sub 5 2) (mult 2 3)) )
+( (let (int a 1) (f lambda (x y) (add x y))) (f 2 (f a 3)) )
+( (let (x lambda () (rand))) (add (print (x)) (print (x))) )
+((let (double gcd lambda (x y) (cond (greater y x) (gcd y x) (cond (equal y 0) x (gcd y (remainder x y)))))) (gcd 95.5 55))
+quit
